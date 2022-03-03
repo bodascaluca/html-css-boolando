@@ -5,3 +5,60 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+.container{
+    border: 2px solid red;
+    width: 80%;
+    max-width: 1200px;
+    margin: 3em auto;
+}
+
+.row{
+    width: 100%;
+    margin-bottom: 2 em;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.fake-pop-up{
+    font-size: .8em;
+}
+
+/* PRODUCT */
+.product{
+    position: relative;
+    margin: 0 4px;
+    position: inline-block;
+    width:calc(100%/3 - 4px);
+    /* border: 2px solid blue; */
+}
+
+.product img {
+    width: 100%;
+}
+
+.product .discount{
+    position: absolute;
+    left: 0;
+    bottom: 5%; /* Le misure si danno i % perchè se la pagina la muviamo dobbiamo garantire che rimanga a quel'altezza */
+    color: white;
+    background-color: #eb0637;
+}
+
+.product .sostenibilità{
+    color: white ;
+    background-color: green;
+    position: absolute;
+    bottom: 5%;
+    left: 12%;
+}
+
+.product .heart{
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 3%;
+    padding: .6em .7em;;
+}
