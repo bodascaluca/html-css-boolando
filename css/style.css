@@ -22,27 +22,41 @@
     background-color: green;
 }
 
-.fake-pop-up{
+.fake-pop-up,.explenation{
     font-size: .8em;
+}
+
+.brand, .costo{
+    font-size: .7em;
+}
+
+.red, .costo{
+    color: red;
+}
+
+.strike{
+    text-decoration: line-through;
+    color: black;
 }
 
 /* PRODUCT */
 .product{
+    display: inline-block;
     position: relative;
     margin: 0 4px;
-    position: inline-block;
-    width:calc(100%/3 - 4px);
-    /* border: 2px solid blue; */
+    width:calc(100%/3 - 11px);
+    border: 2px solid blue;
+    vertical-align: top; /* Essenziale per mantenere tutti i product alzati allo stesso livello  */
 }
 
 .product img {
     width: 100%;
-}
+} 
 
 .product .discount{
     position: absolute;
     left: 0;
-    bottom: 5%; /* Le misure si danno i % perchè se la pagina la muviamo dobbiamo garantire che rimanga a quel'altezza */
+    top: 435px; /* Le misure si danno i % perchè se la pagina la muviamo dobbiamo garantire che rimanga a quel'altezza */
     color: white;
     background-color: #eb0637;
 }
@@ -51,8 +65,8 @@
     color: white ;
     background-color: green;
     position: absolute;
-    bottom: 5%;
-    left: 12%;
+    top: 435px;
+    left: 30px;
 }
 
 .product .heart{
@@ -61,4 +75,5 @@
     right: 0;
     top: 3%;
     padding: .6em .7em;;
-}
+} 
+
