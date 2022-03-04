@@ -7,7 +7,7 @@
 
 /* COMMON */
 .container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80%;
     max-width: 1200px;
     margin: 3em auto;
@@ -45,7 +45,7 @@
     position: relative;
     margin: 0 4px;
     width:calc(100%/3 - 11px);
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     vertical-align: top; /* Essenziale per mantenere tutti i product alzati allo stesso livello  */
 }
 
@@ -91,4 +91,18 @@ img:nth-last-child(1){
 .product:hover img:nth-last-child(1){
     cursor: pointer;
     display: inline-block; 
+}
+
+#left-zero{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+ .product .sostenibilità-2{
+    color: white ;
+    background-color: green;
+    position: absolute;
+    top: 435px;
+    left: 0px;
+    z-index: 1;
 }
